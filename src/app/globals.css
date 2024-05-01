@@ -1,3 +1,11 @@
-@import 'tailwindcss/base';
+/* @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss/utilities'; */
+
+.pagination .ant-pagination-item-link {
+  @apply bg-black text-white hover:bg-gray-800 border-none;
+}
+
+.pagination .ant-pagination-item.ant-pagination-item-active {
+  @apply bg-black text-white hover:bg-gray-800 border-none;
+}

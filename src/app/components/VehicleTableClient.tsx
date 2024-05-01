@@ -32,7 +32,7 @@ const columns = [
     title: 'Manufacturing Date',
     dataIndex: 'Manufacturing Date',
     key: 'Manufacturing Date',
-    render: (text: string) => <span>{moment(text).format('DD/MM/YY')}</span>,
+    render: (text: string) => <span style={{padding: '30px'}}>{moment(text).format('DD/MM/YY')}</span>,
   },
   {
     title: 'Seating',
@@ -60,8 +60,9 @@ const VehicleTable: React.FC = () => {
           placeholder="Search..."
           value={searchText}
           onChange={(e) => handleSearch(e.target.value)}
-          className="w-full md:w-1/2 lg:w-1/3 rounded-lg border-gray-300 focus:border-blue-500 focus:ring-blue-500"
+          className="w-1/2 md:w-1/2 lg:w-1/3 rounded-lg border border-gray-300 focus:border-gray-300 focus:ring focus:ring-gray-300 px-4 py-2 outline-none !important"
         />
+
       </div>
       <Table
         dataSource={filteredData}
@@ -75,7 +76,7 @@ const VehicleTable: React.FC = () => {
           className: 'pagination',
         }}
         bordered
-        // responsive
+        responsive
       />
     </div>
   );
