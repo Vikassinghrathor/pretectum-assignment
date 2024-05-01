@@ -76,7 +76,7 @@ const VehicleTable: React.FC = () => {
           className: 'pagination',
         }}
         bordered
-        responsive
+        // responsive
       />
     </div>
   );

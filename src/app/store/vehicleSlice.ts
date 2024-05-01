@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import vehicleData from '../data/data.json';
+import vehicleData from '../Data/Data.json';
 
 interface VehicleData {
   Name: string;
