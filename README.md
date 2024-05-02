@@ -1,4 +1,4 @@
-Sure, here's the README file with proper formatting:
+# Project Live Link -: https://pretectumtablesdata-n4wg1aw3w-vikassinghrathors-projects.vercel.app/
 
 # Vehicle Data Table
 
@@ -36,7 +36,7 @@ This project is a React application built with Next.js that displays vehicle dat
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/vehicle-data-table.git
+git clone https://github.com/Vikassinghrathor/pretectum-assignment.git
 ```
 
 Install dependencies:
