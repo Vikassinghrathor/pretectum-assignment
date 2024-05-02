@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Vehicle Data Table -:
 
-## Getting Started
+This project is a React application built with Next.js that displays vehicle data in a paginated table format. Users can search within the data using a search form. The page is responsive, and the UI/UX scales and changes as per the screen form factor. The app loads the page as a server-side rendered page, and the search/pagination works on the client-side.
 
-First, run the development server:
+Features -:
 
-```bash
+. Display vehicle data in a paginated table
+. Search functionality to filter data
+. Responsive design for various screen sizes
+. Server-side rendering for fast initial page load
+. Client-side pagination and search for smooth user experience
+
+Technologies Used -:
+
+. Next.js for server-side rendering
+. React.js for frontend framework
+. Ant Design library for React UI components
+. Redux Toolkit for state management
+. TypeScript for programming language
+. Tailwind CSS for styling
+
+Project Structure -:
+
+. src/ : Contains the source code of the application
+. components/ : Contains React components
+. data/ : Contains the JSON data file (Data.json)
+. pages/ : Contains Next.js pages
+. store/ : Contains Redux store setup and slice
+. layout.tsx : Root layout component
+. globals.css : Global CSS styles
+
+Installation -:
+
+Clone the repository:
+
+bash
+
+Copy code
+
+git clone https://github.com/your-username/vehicle-data-table.git
+
+Install dependencies:
+
+bash
+
+Copy code
+
+cd vehicle-data-table
+
+npm install
+
+Start the development server:
+
+bash
+
+Copy code
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to http://localhost:3000 to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Usage -:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+. Use the search input to search for specific vehicle data.
+. Navigate through the paginated table using the pagination controls.
 
-## Learn More
+Hosting -: 
+The application can be hosted on Vercel .
 
-To learn more about Next.js, take a look at the following resources:
+Credits
+This project was created by Vikas Singh Rathore .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
